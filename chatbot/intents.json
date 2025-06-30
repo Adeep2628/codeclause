@@ -1,0 +1,23 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": ["hello", "hi", "hey", "good morning", "good evening"],
+      "responses": ["Hello!", "Hi there!", "Hey!", "Greetings!"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you", "exit"],
+      "responses": ["Bye!", "See you soon!", "Take care!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "appreciate it"],
+      "responses": ["You're welcome!", "No problem!", "Glad to help!"]
+    },
+    {
+      "tag": "no_match",
+      "responses": ["I didn't understand that. Can you rephrase?", "Sorry, I didn't get you."]
+    }
+  ]
+}
